@@ -1,0 +1,1012 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+	font-size: 100%;
+}
+
+body {
+    margin: 0px;
+}
+
+.centered {
+  margin: 0 auto;
+}
+
+.ombre {
+    text-shadow: 0px 25px 25px gray;
+}
+
+.texte_gris {
+    color: rgb(100,100,100);
+}
+
+
+
+.texte_espace {
+    line-height: 150%;
+}
+
+.text_centered {
+    text-align: center;
+}
+
+.text_larger_size {
+    font-size: 7.5rem;
+}
+
+.texte_blanc {
+  color: white;
+}
+
+.text_medium_size {
+    font-size: 5rem;
+}
+
+.text_heading_small {
+    font-size: 3rem;
+}
+
+.text_small {
+    font-size: 2.5rem;
+}
+
+.centered{
+      margin: 0 auto;
+}
+
+.gras {
+  font-weight: bold;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+
+  li {
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    margin: 40px;
+  }
+
+  label {
+    margin: 80px;
+  }
+
+
+/*debut du header */
+#top_menu {
+    display: flex;
+    align-content: space-around;
+    height: 250px;
+    justify-content: space-between;
+}
+
+#bottom_header {
+    height: 650px;
+    width: 650px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#head_logo {
+    width:auto;
+    height:180px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#navbar {
+    display: flex;
+    align-self: center;
+    margin: 30px;
+}
+/*fin du header */
+
+.top_and_bottom {
+    background-color: #6A7B8B;
+}
+
+
+/* footer */
+#footer_middle {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+#bottom_container {
+    display: flex;
+    align-items: center;
+    height: 350px;
+}
+
+#bottom_logo {
+    align-self: flex-start;
+    height: 200px;
+    width: auto;
+    margin: 50px;
+}
+
+.foot_image {
+    height: 100px;
+    width: auto;
+}
+
+#bottom_images {
+  display: flex;
+  justify-content: space-around;
+}
+/* fin du footer  */
+
+/* debut de l'index */
+
+.index_program_content {
+    text-align: center;
+    margin: 200px;
+}
+
+#index_main_container {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#decouvrez {
+    display: inline;
+    position: relative;
+    top: 350px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 4.5rem;
+    color: white;
+    margin: 0 auto;
+}
+
+#coffee_room_one {
+    background: url("https://drive.google.com/uc?id=12LkXBHEn93jhtRHPRDBSjSLHO-gmzX8Q");
+    background-size: auto;
+    margin: 0 auto;
+    height: 2000px;
+    width: 100%;
+}
+
+#index_middle_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.savoir_plus {
+    justify-self: center;
+    text-align: center;
+    color: white;
+    background-color: #6A7B8B;
+    margin: 200px;
+    width: 800px;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 30px 6px #8c8c8c;
+}
+
+.aimer_trois {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.three_containers {
+    background-color: #bac1c8;
+    color: white;
+    text-align: center;
+    width: 1200px;
+    height: 1200px;
+    margin: 150px;
+    box-shadow: 0px 5px 30px 6px #8c8c8c;
+}
+
+.icon_index_main {
+  height: 300px;
+  width: 300px;
+  padding: 50px;
+  }
+
+.text_three_containers {
+  font-size: 3.5rem;
+  padding: 30px;
+}
+
+#programme {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#open {
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+#open_icon {
+    width: 300px;
+    height: 300px;
+    margin: 80px;
+  }
+
+.annonce_index {
+    font-size: 4.5rem;
+    text-align: center;
+    font-weight: bold;
+    margin: 60px;
+}
+/* fin de index */
+
+
+/* contact */
+
+.soumettre {
+  color: white;
+  background-color: #6A7B8B;
+  width: 800px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 30px 6px #8c8c8c;
+  margin-left: 400px;
+  margin-right: auto;
+}
+
+#carte{
+    width: 100%;
+    height: 100%;
+    margin: 200px;
+}
+
+#contact_content {
+    margin-left: 1200px;
+    margin-right: 1200px;
+}
+
+input {
+  width: 100%;
+  padding: 50 400 50 400;
+  box-sizing: border-box;
+  background-color: #b6c2c9;
+  height: 120px;
+  margin: 80px;
+  font-size: 3.5rem;
+}
+
+textarea {
+  width: 100%;
+  padding: 50 400 50 400;
+  box-sizing: border-box;
+  background-color: #b6c2c9;
+  height: auto;
+  margin: 80px;
+  font-size: 3.5rem;
+}
+
+.pop {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  #coordonnees {
+      margin: 200px;
+  }
+
+  .popup_content {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 300px;
+    padding: 300px;
+
+    border: 1px solid black;
+/*
+    width: 3000px;
+    height: 1200px;
+*/
+
+  }
+
+  #top_popup {
+    display: flex;
+    flex-direction: column;
+    margin-left: 600px;
+    color: rgb(100,100,100);
+    text-align: center;
+
+  }
+
+  #info_popup {
+    margin-left: 600px;
+    color: rgb(100,100,100);
+    font-weight: bold;
+    padding: 100px;
+  }
+
+
+  #logo_popup {
+    width: 400px;
+    height: 400px;
+    position: fixed;
+    top: 400px;
+    left: 400px;
+
+  }
+
+  #fermeture_popup {
+
+    margin: 0 auto;
+
+    /*
+    margin-left: 800px;
+*/
+
+    justify-self: center;
+    text-align: center;
+    color: white;
+    background-color: #6A7B8B;
+
+    width: 800px;
+
+    border-radius: 20px;
+    box-shadow: 0px 5px 30px 6px #8c8c8c;    
+  }
+
+  #popup_heading {
+    font-size: 7.5rem;
+
+  }
+
+
+/* fin de contact  */
+
+
+/* debut de about */
+#about_main_container {
+    align-content: space-around;
+    flex-direction: column;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+#about_upper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 200px;
+}
+
+#about_lower {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin: 200px;
+}
+
+.about_text {
+    padding: 100px;
+    max-width: 60%;
+}
+
+.about_image {
+    width: 1600px;
+    margin: 100px;
+}
+
+/* fin de about  */
+
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+  .text_larger_size {
+    font-size: 3rem;
+  }
+
+
+  .text_small {
+    font-size: 1rem;
+}
+
+.text_medium_size {
+    font-size: 1.5rem;
+  }
+
+/*
+smartphone header footer debut
+*/ 
+#navbar {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+
+
+#bottom_header {
+height: 120px;
+width: 120px;
+}
+
+
+
+#top_menu {
+  flex-direction:column;
+  align-content: center;
+  height: auto;
+  align-self: center;
+}
+
+#head_logo {
+  width: auto;
+  height: 40px;
+  align-self: flex-start;
+}
+/*
+smartphone header footer fin
+*/ 
+
+
+
+
+/*
+smartphone about debut
+
+*/
+
+#about_main_container {
+  flex-direction: column;
+  margin-left: 0px;
+  margin-right: 0px;
+  max-width: 320px;
+}
+
+#about_upper {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+
+}
+
+.about_text {
+  padding: 0px;
+}
+
+.about_image {
+  width: 400px;
+  margin: 30px;
+  float: left;
+}
+
+
+#about_lower {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  }
+
+  #popup_heading {
+    font-size: 3rem;
+
+  }
+
+
+/*
+smartphone about fin
+
+*/
+
+
+
+/*
+smartphone contact debut
+
+*/
+
+input {
+  height: 60px;
+  margin: 0px;
+  font-size: 2rem;
+  width: 100%;
+}
+
+textarea {
+  height: auto;
+  margin: 0px;
+  font-size: 2rem;
+  width: 90%;
+}
+
+
+#contact_content {
+  max-width: 320px;
+  margin: auto;
+
+}
+
+#contact_form {
+width: 95%;
+
+}
+
+label {
+  margin: 0px;
+}
+
+.soumettre {
+  margin-left: 0px;
+    width: 90%;
+    height: 50px;
+  }
+
+#coordonnees {
+    margin: 0px;
+  }
+
+#carte {
+    margin: 0px;
+  }
+
+
+/*
+smartphone contact fin
+
+*/
+
+/*
+smartphone index debut
+*/
+
+.annonce_index {
+  margin: 20px;
+}
+
+#index_main_container {
+  max-width: 320px;
+  margin: auto;
+}
+
+#coffee_room_one {
+  height: 500px;
+  background-position: center;
+}
+
+
+
+.text_three_containers{
+  font-size: 1.5rem;
+  padding: 0px;
+}
+
+.three_containers {
+width: 90%;
+height: 90%;
+margin: 20px;
+}
+
+.savoir_plus {
+width: 80%;
+padding: 0px;
+margin: 30px;
+}
+
+.icon_index_main {
+  height: 150px;
+  width: 150px;
+  padding: 0px;
+}
+
+#open_icon {
+width: 150px;
+height: 150px;
+margin: 30px;
+}
+
+.index_program_content {
+  margin: 0px;
+}
+
+  .aimer_trois {
+    flex-direction: column;
+  }
+
+  #decouvrez {
+    top: 0px;
+    font-size: 1.8rem;
+  }
+
+/*
+smartphone index fin
+*/
+
+
+
+
+  html {
+    font-size: 80%
+  }
+
+
+
+
+
+#bottom_container {
+    flex-direction:column;
+    align-items: center;
+    justify-items: center;
+    height: 200px;
+  }
+
+#bottom_logo {
+    align-self: flex-start;
+    height: 50px;
+    margin: 0px;
+  }
+
+.foot_image {
+    height: 50px;
+    margin: 20px;
+  }
+
+/*
+popup smartphone 
+*/
+
+.popup_content {
+
+  margin: 0px;
+  padding: 0px;
+
+
+}
+
+#logo_popup {
+  width: 80px;
+  height: 80px;
+  top: 30px;
+  left: 30px;
+}
+
+#top_popup {
+  margin-left: 40px;
+}
+
+#info_popup {
+  margin-left: 40px;
+  padding: 0px;
+
+}
+
+#fermeture_popup {
+  margin: 50px;
+  width: 200px;
+}
+
+
+
+
+
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+  label {
+    margin: 40px;
+  }
+
+  #bottom_container {
+    display: flex;
+    align-items: center;
+    height: 350px;
+    max-width: 100%;
+    background-color: #6A7B8B;
+    height: 250px;
+}
+
+  .top_and_bottom {
+    max-width: 100%;
+  }
+
+  #bottom_logo {
+    margin: 20px;
+    height: 120px;
+    width: auto;
+  }
+
+  .foot_image {
+    height: 75px;
+    margin: 20px;
+  }
+
+
+  .top_and_bottom {
+    max-width: 768px;
+  }
+
+
+  .text_medium_size {
+    font-size: 2rem;
+  }
+
+  .text_larger_size {
+    font-size: 4rem;
+    }  
+
+    .text_small {
+      font-size: 1.8rem;
+  }    
+
+  .texte_espace {
+    line-height: 120%;
+  }
+
+
+/*
+debut header footer tabltette
+*/
+
+#top_menu {
+  max-width: 100%;
+  flex-direction: column;
+  height: auto;
+}
+
+#head_logo {
+  width: 20%;
+  height: auto;
+  }
+
+#bottom_header {
+  height: 400px;
+  width: 400px;
+
+}
+
+/*
+fin header footer tablette
+*/
+
+
+/*
+debut index tablette
+
+*/
+#index_main_container {
+  max-width: 768px;
+  margin: auto;
+}
+
+#coffee_room_one {
+  width: 90%;
+  height: 800px;
+  background-position: center;
+}
+
+#decouvrez {
+  top: 0px;
+  font-size: 2.5rem;
+  line-height: 150%;
+}
+
+.annonce_index {
+  margin: 30px;
+}
+
+.aimer_trois {
+  flex-direction: column;
+}
+
+.three_containers {
+  margin: 50px;
+  width: 500px;
+  height: 500px;
+}
+
+.icon_index_main {
+  height: 120px;
+  width: 120px;
+  padding: 20px;
+}
+
+.text_three_containers {
+  font-size: 1.5rem;
+  padding: 5px;
+
+}
+
+.ombre {
+  text-shadow: 0px 5px 5px gray;
+  line-height: 20px;
+}
+
+.savoir_plus {
+  width: 500px;
+  margin: 30px;
+}
+
+#open {
+  font-size: 1.5rem;
+}
+
+#open_icon {
+  width: 150px;
+  height: 150px;
+  margin: 30px;
+}
+
+.index_program_content {
+  text-align: center;
+  margin: 50px;
+}
+
+/*
+fin index tablette
+*/
+
+
+
+
+
+/*
+tablette
+conbtact
+*/
+
+
+
+input {
+  font-size: 3rem;
+  width: 80%;
+  margin: 40px;
+  height: 90px;
+}
+
+#contact_content {
+  margin: auto;
+  max-width: 768px;
+  }
+
+#coordonnees {
+  margin: 50px;
+  }
+
+  .soumettre {
+    margin-left: 150px;
+    width: 400px;
+    }
+
+textarea {
+  width: 80%;
+  margin: 40px;
+  font-size: 3rem;
+}
+
+#carte {
+  margin: 50px;
+  width: 95%;
+  height: 95%;
+  }
+
+/*
+fin contact
+*/
+
+
+/*
+tablette
+about
+
+*/
+.about_text {
+  padding: 0px;
+  max-width: 100%;
+}
+
+#about_main_container {
+  margin: auto;
+  max-width: 768px;
+
+  }
+
+#about_upper {
+  flex-direction: column;
+  margin: 0px;
+
+  }
+
+#about_lower {
+  flex-direction: column;
+  margin: 0px;
+  }
+
+  .about_image {
+    width: 650px;
+    margin: 50px;
+  }
+  
+
+/*
+fin tablette about
+*/
+
+
+/*
+popup tablette 
+*/
+
+.popup_content {
+  margin: 30px;
+  padding: 30px;
+}
+
+#logo_popup {
+  width: 130px;
+  height: 130px;
+  top: 50px;
+  left: 50px;
+}
+
+#top_popup {
+  margin-left: 200px;
+}
+
+#popup_heading {
+  font-size: 2rem;
+
+}
+
+
+#info_popup {
+  margin-left: 0px;
+  padding: 0px;
+  font-size: 1.5rem;
+}
+
+#fermeture_popup {
+  width: 400px;
+}
+
+
+
+
+
+
+
+
+
+}

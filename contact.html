@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+
+    <link href="./application.css" rel="stylesheet" type="text/css">
+    <meta name="description" content="Nous contacter. Mr.Coffee, 15 place Jules Guesde, 75006 Paris.
+    Tel : +33 9 46 25 78 45. Mail : contact@mr-coffee.com"/>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content=" initial-scale=1.0"/>
+    <script src="./form.js"></script>
+    <title>Contact</title>
+
+</head>
+
+<body>
+
+    <header>
+        <div id="top_menu" class="top_and_bottom">
+            <a href="./index.html"><img src="https://drive.google.com/uc?id=1IDuDGOjqjxyusX4i_Ej_6o3Zl9TnQ4nY" alt="Mr. Coffee - logo de l'entreprise" class="logo" id="head_logo"></a>   
+
+            <nav id="navbar">
+                <ul>
+                  <li class="text_small texte_blanc"><a href="index.html">Accueil</a></li>
+                  <li class="text_small texte_blanc"><a href="about.html">Qui sommes-nous ?</a></li>
+                  <li class="text_small texte_blanc"><a href="contact.html">Nous contacter</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <img src="https://drive.google.com/uc?id=1dCiwnMUGLnTUv03cFiwpHz_PLPZpVJy9" id="bottom_header" alt="Mr. Coffee - logo de l'entreprise">
+
+    </header>
+
+    <main>
+        <div id="contact_content">
+
+            <div id="contact_form" class="texte_gris">
+                <h1 class="text_larger_size text_centered">Dites nous tout !</h1>
+
+                <form id="about_form" class="text_medium_size">
+
+
+                    <div >
+                        <label for="nom">Nom *</label><br>
+                        <input type="text" id="nom" name="nom" class="champ_contact_form" required><br>
+                    </div>
+
+                    <div>
+                        <label for="prenom">Prénom *</label><br>
+                        <input type="text" id="prenom" name="prenom" required><br>
+                    </div>
+
+                    <div>
+                        <label for="telephone">Téléphone</label><br>
+                        <input type="tel" id="telephone" name="telephone" pattern="[0-9]{10}"><br>
+                    </div>
+
+                    <div>
+                        <label for="email">Adresse mail *</label><br>
+                        <input type="email" id="email" name="email" required><br>
+                    </div>
+
+                    <div>
+                        <label for="message">Message *</label><br>
+                        <textarea rows="6" cols="50" name="message" form="about_form" id="message" required>Tapez votre message ici</textarea>
+                    </div>
+
+                    <div>
+                        <input type="submit" value="Envoyer" id="submit_button" class="soumettre">
+                    </div>
+
+                </form>
+            </div>
+
+            <div id="coordonnees" class="texte_gris">
+                <h1 class="text_larger_size text_centered">On vous attend !</h1>
+                <br>
+                <p class="text_medium_size"><b>Mr.Coffee</b><br>
+                    15 place Jules Guesde<br>
+                    75006 Paris<br>
+                    <br>
+                    Tel : +33 9 46 25 78 45<br>
+                    Mail : contact@mr-coffee.com
+                </p>
+            </div>
+
+            <div  ><img src="https://drive.google.com//uc?id=1eNJhkO7lz0nYMLZJLTcZrhndzbjTanZV" alt="une carte Google Maps deindiquant où est notre café" id="carte"></div>
+        </div>
+
+
+        <div id="overlay">
+            <div class="popup_content">
+                <img src="https://drive.google.com/uc?id=1zQAUsyK6Jan3ugkOUj-BSP_ltql-JEju" id="logo_popup">
+
+
+                <div id="top_popup" >                   
+
+                    <h2 class="texte_gris" id="popup_heading">
+                        MERCI<br>
+                        <br>
+                        Votre message a bien été envoyé !
+                    </h2>
+                </div>
+
+                <p class="text_medium_size texte_gris" id="info_popup">
+                    Nous essaierons d’y répondre au mieux dans les plus brefs délais. À bientot chez Mr.Coffee
+                </p>
+    
+                <button id="fermeture_popup"><h3 class="text_medium_size" >FERMER</h3> </button>
+
+            </div>
+
+        </div>
+        
+
+    </main>
+
+    <footer>
+      <div id="bottom_container" class="top_and_bottom">
+          <div><img src="https://drive.google.com/uc?id=1TgfW3hgiA0-ReQ7TFbwxprRiDrgLltcr" id="bottom_logo" alt="Mr. Coffee - logo de l'entreprise"></div>
+          <div id="footer_middle">
+              <p class="text_small texte_blanc">Suivez-nous sur les réseaux sociaux !</p>
+              <div  id="bottom_images">
+
+                  <img src="https://drive.google.com/uc?id=1f3OxArM8Rm4bhjy8B6Y4foChK7moMFwI" class="foot_image " alt="Linked In company logo">
+                  <img src="https://drive.google.com/uc?id=1mRaELGJrbexXSaknpUIoevqziteQjDDH" class="foot_image " alt="Twitter company logo">
+                  <img src="https://drive.google.com/uc?id=141rNco294-3ISIK7Amlh901CSPRmz57Q" class="foot_image " alt="Facebook company logo">
+              </div>
+          </div>
+      </div>
+
+    </footer>
+
+</body>
+</html>
